@@ -100,7 +100,7 @@ This will issue an SSH user certificate.
 
 1. **Bootstrap your CA configuration** on your worker node by running the same as Step 1 above.
 
-2. Create an **SSH user certificate** for the user `root` by running:
+2. Create an **SSH user certificate** for the user `worker1@nopasaranhosts-worker` by running:
 ```
 step ssh certificate worker1@nopasaranhosts-worker id_ecdsa
 ```
